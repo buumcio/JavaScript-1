@@ -1,11 +1,11 @@
 // scripts.js
 
-/* var name = prompt('Enter your name');
+var name = prompt('Enter your name');
 // teraz wyświetli się funkcja alert
 alert('Hello, ' + name);
 console.log('Hello, ' + name);
 
-
+/*
 var foo = 'lorem' + 'Ipsum';
 foo = 'lorem' + ['1', 2, 3.4];     // 'lorem1, 2, 3.4'
 foo = ['1', 2, 3.4] + 'lorem';     // '1,2,3.4lorem'
@@ -91,7 +91,7 @@ console.log(text.slice(0,73));
 */
 
 
-function getTree (x) {
+/*function getTree (x) {
 	for (var i=0; i<=x; i++) {
 		var star="";
 		for (var j=x; j>i; j--){
@@ -108,3 +108,4 @@ function getTree (x) {
 }
 
 getTree(5);
+*/
