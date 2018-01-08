@@ -24,15 +24,15 @@ console.log( 'The current value of points is: ', points ); // Wartość to 1
 console.log( 'The current value of points is: ', points++ ); // Wartość 1 a nstępnie wzrasta
 console.log( 'The current value of points is: ', points ); // Wartość to 2
 */
-
+/*
 var a = prompt("Enter value a of triangle");
 var h = prompt("Enter value h of triangle");
 var triangleArea = a*h/2;
 alert(triangleArea);
 console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
+*/
 
-
-/* var a = prompt("Wprowadź zmienną 'a'");
+var a = prompt("Wprowadź zmienną 'a'");
 var b = prompt("Wprowadź zmienną 'b'");
 var value = (a*a)-(2*a*b)+(b*b);
 console.log("Wynik to: ", value);
@@ -43,7 +43,7 @@ if (value>0) {
 } else {
 	console.log("Wynik równa się zero");
 }
-*/
+
 
 /*var a = prompt("Wprowadź zmienną 'a'");
 var h = prompt("Wprowadź zmienną 'h'");
