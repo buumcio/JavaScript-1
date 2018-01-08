@@ -1,5 +1,5 @@
 // scripts.js
-
+/*
 var name = prompt('Enter your name');
 // teraz wyświetli się funkcja alert
 alert('Hello, ' + name);
@@ -17,13 +17,13 @@ foo = ['1', 2, 3.4] + {bar: 'lorem'}; // 1, 2, 3.4 [object Object]
 foo = {bar: 'lorem'} + [1, '2', 3.4]; // [object Object] 1, 2, 3.4
 
 foo = ['1', 2, 3.4] + undefined; // 1, 2, 3.4 undefined
-
-var points = 1;
-
-console.log( 'The current value of points is: ', points ); // 1
-console.log( 'The current value of points is: ', points++ ); // 1
-console.log( 'The current value of points is: ', points ); // 2
 */
+var points = 1;
+alert('Wartość to, ' + points)
+console.log( 'The current value of points is: ', points ); // Wartość to 1
+console.log( 'The current value of points is: ', points++ ); // Wartość 1 a nstępnie wzrasta
+console.log( 'The current value of points is: ', points ); // Wartość to 2
+
 
 /* var a = prompt("Enter value a of triangle");
 var h = prompt("Enter value h of triangle");
