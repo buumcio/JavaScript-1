@@ -18,19 +18,20 @@ foo = {bar: 'lorem'} + [1, '2', 3.4]; // [object Object] 1, 2, 3.4
 
 foo = ['1', 2, 3.4] + undefined; // 1, 2, 3.4 undefined
 */
-var points = 1;
+/* var points = 1;
 alert('Wartość to, ' + points)
 console.log( 'The current value of points is: ', points ); // Wartość to 1
 console.log( 'The current value of points is: ', points++ ); // Wartość 1 a nstępnie wzrasta
 console.log( 'The current value of points is: ', points ); // Wartość to 2
+*/
 
-
-/* var a = prompt("Enter value a of triangle");
+var a = prompt("Enter value a of triangle");
 var h = prompt("Enter value h of triangle");
 var triangleArea = a*h/2;
 alert(triangleArea);
 console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
-*/
+
+
 /* var a = prompt("Wprowadź zmienną 'a'");
 var b = prompt("Wprowadź zmienną 'b'");
 var value = (a*a)-(2*a*b)+(b*b);
